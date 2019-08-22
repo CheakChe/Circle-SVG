@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+	<linearGradient id="MyGradient" y2="50%" x2="-30%">
+		<stop offset="0"  stop-color="#ba2f8a"/>
+		<stop offset="1" stop-color="#4d8cd3"/>
+	</linearGradient>
+	<linearGradient id="MyGradien" y2="-20%" x2="40%">
+		<stop offset="0"  stop-color="#4d8cd3"/>
+		<stop offset="1" stop-color="#ba2f8a"/>
+	</linearGradient>
+	<g>
+		<circle class="gradient" r="30" cx="50px" cy="50px"   stroke-width="15" stroke="url(#MyGradient)" fill="none"/>
+		<polygon points="40,67 40,75 "  stroke="white" stroke-width="5" fill="white" stroke-linecap="round" stroke-linejoin="round"/>
+		<path d="M10 10 C 20 20, 40 20, 50 10" stroke="white" fill="none" transform="translate(25, 74.4)rotate(-35)"/>
+		<polygon points="40,77 45,77 55,74 60,70 62,69 50,69 40,69" stroke="white" fill="white"/>
+		<path d="M10 10 C 15 15, 25 15, 30 10" stroke="url(#MyGradien)" fill="none" transform="translate(30, 47)" stroke-width="3" stroke-linecap="round"/>
+	</g>
+</svg>
